@@ -4,7 +4,10 @@ grayscale style (c) MY Sun <simonmysun@gmail.com>
 
 */
 
+
+@import "https://code.cdn.mozilla.net/fonts/fira.css";
 .hljs {
+    font-family: 'Fira Mono';
   display: block;
   overflow-x: auto;
   padding: 0.5em;

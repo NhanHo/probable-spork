@@ -72,7 +72,6 @@ a.list-group-item {
 }
 .navbar {
   background-color: #FFF;
-  background-image: linear-gradient(to right, wheat, wheat 10%, skyblue 10%, skyblue 20%, lightcoral 20%, lightcoral 30%, wheat 30%, wheat 40%, skyblue 40%, skyblue 50%, lightcoral 50%, lightcoral 60%, wheat 60%, wheat 70%, skyblue 70%, skyblue 80%, lightcoral 80%, lightcoral 90%, wheat 90%, wheat 100%);
   background-size: 100% 5px;
   background-position: 50% 100%;
   background-repeat: no-repeat;
