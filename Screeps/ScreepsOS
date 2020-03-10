@@ -20,7 +20,7 @@ We got a basic economy going, and a function `mine(flagName)` that we can call o
 
 However, mineral regenerates differently than sources: sources start their countdown whenever `source.energy < source.energyCapacity`, minerals only start regeneration timer when the remaining amount is 0 and has 50000 ticks cooldown time. **We can not continuously mine mineral the same way you do with energy source**. After the mineral deposit runs out, we will need to stop calling the `mine` function, so let's add a change to do that.
 
-``` javascript
+```javascript
 	let mineral = getMineralWithMagic(flagName);
 	if (mineral.mineralAmount > 0)
 		let result = mining(flagName)
@@ -34,7 +34,7 @@ This is a very common scenario, especially with couriers when we want them to co
 
 We have two very CPU consuming tasks: running reactions in lab and invading some noob's room. Normally, we want to reserve all your CPU for running reactions (which can takes up ~60cpu/ ticks in my case), then use whatever leftover CPU to run the invading code. It might look like this:
 
-``` javascript 
+```javascript 
 	runReactions();
 	if (Game.cpu.getUsed() > 50)
 		RAWR()
