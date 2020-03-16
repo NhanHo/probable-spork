@@ -5,9 +5,9 @@ grayscale style (c) MY Sun <simonmysun@gmail.com>
 */
 
 
-@import "https://concoursefont.com/css/concourse-278.css";
-@import "https://concoursefont.com/css/concourse-346.css";
-@import "https://concoursefont.com/css/concourse-i.css";
+@import "/static/css/concourse-278.css";
+@import "/static/css/concourse-346.css";
+@import "/static/css/concourse-i.css";
 
 .hljs {
     font-family: 'Concourse C3';
