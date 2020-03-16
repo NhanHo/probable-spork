@@ -4,7 +4,7 @@ html {
 }
 body {
   background: #fff;
-  font-family: "Fira Sans";
+  font-family: "Concourse T2";
 }
 main {
   margin-top: 60px;
@@ -48,7 +48,7 @@ time {
 footer {
   font-size: 0.7em;
   color: #777;
-  font-family: "Fira Sans";
+  font-family: "Concourse T3";
 }
 .tags {
   color: #666;
@@ -58,7 +58,7 @@ footer {
 .listing {
   width: 90%;
   max-width: 800px;
-  font-family: "Fira Sans";
+  font-family: "Concourse T2";
   font-size: 1.2em;
 }
 a.list-group-item {

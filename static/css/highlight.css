@@ -5,9 +5,12 @@ grayscale style (c) MY Sun <simonmysun@gmail.com>
 */
 
 
-@import "https://code.cdn.mozilla.net/fonts/fira.css";
+@import "https://https://concoursefont.com/css/concourse-278.css";
+@import "https://https://concoursefont.com/css/concourse-346.css";
+@import "https://https://concoursefont.com/css/concourse-i.css";
+
 .hljs {
-    font-family: 'Fira Mono';
+    font-family: 'Concourse C3';
   display: block;
   overflow-x: auto;
   padding: 0.5em;
