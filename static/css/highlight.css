@@ -8,9 +8,10 @@ grayscale style (c) MY Sun <simonmysun@gmail.com>
 @import "/static/css/concourse-278.css";
 @import "/static/css/concourse-346.css";
 @import "/static/css/concourse-i.css";
+@import "https://code.cdn.mozilla.net/fonts/fira.css"
 
 .hljs {
-    font-family: 'Concourse C3';
+    font-family: 'Fira Mono';
   display: block;
   overflow-x: auto;
   padding: 0.5em;
