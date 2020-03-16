@@ -14,10 +14,10 @@ code {
     font-family: 'Source Code Pro'
 }
 .author {
-    hidden: true;
+    display: none;
 }
 .date {
-    hidden: true;
+    display: none;
 }
 .hljs {
     font-family: 'Source Code Pro';
