@@ -5,6 +5,7 @@ html {
 body {
   background: #fff;
   font-family: "Concourse T2";
+  font-feature-settings: 'ss02' on;
 }
 main {
   margin-top: 60px;
@@ -49,6 +50,7 @@ footer {
   font-size: 0.7em;
   color: #777;
   font-family: "Concourse T3";
+  font-feature-settings: 'ss02' on;
 }
 .tags {
   color: #666;
@@ -59,6 +61,7 @@ footer {
   width: 90%;
   max-width: 800px;
   font-family: "Concourse T2";
+  font-feature-settings: 'ss02' on;
   font-size: 1.2em;
 }
 a.list-group-item {
