@@ -13,6 +13,12 @@ grayscale style (c) MY Sun <simonmysun@gmail.com>
 code {
     font-family: 'Source Code Pro'
 }
+.author {
+    hidden: true;
+}
+.date {
+    hidden: true;
+}
 .hljs {
     font-family: 'Source Code Pro';
   display: block;
