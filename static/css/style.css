@@ -8,6 +8,10 @@ body {
 main {
   margin-top: 60px;
 }
+.navbar {
+    font-family: "Concourse C2";
+    font-feature-settings: "ss02" on;
+}
 .flex-container {
   display: flex;
   width: 100%;
