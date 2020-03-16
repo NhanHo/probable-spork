@@ -10,7 +10,7 @@ grayscale style (c) MY Sun <simonmysun@gmail.com>
 @import "/static/css/concourse-i.css";
 @import "https://code.cdn.mozilla.net/fonts/fira.css";
 @import "/static/css/source-code-pro/source-code-pro.css";
-.code {
+code {
     font-family: 'Source Code Pro'
 }
 .hljs {
