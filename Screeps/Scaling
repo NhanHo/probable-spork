@@ -1,0 +1,10 @@
+---
+title: Scaling a team
+author: Nhan Ho
+abstract: First two months as engineering manager.
+---
+Just like there are two ways to scale your infrastructure, there are two ways to scale up the productivity of your team: horizontally or vertically. You can help each member of your team to work better, or to figure out a repeatable process that allow you to add more members to a team.
+
+Horizontal scaling seems to have won out for both scaling infrastructure and developers. The main thesis of The Mythical Man-Month still stands, so we can't have more than two dozen developers working closely on the same part of code. Instead we divided the system into multiple micro services, and have them communicates via strictly defined API. We traded developer communication for API calls, and per-developer efficiency for the ability to add more developers at-will.
+
+This is interesting because while you were working as a programmer, your top priority is to maximize your own productivity (to a first approximation, of course we don't trade our team member's efficiency for our own). Once you starts managing a team, however, code structure and process that would maximize individual's productivity very quickly takes a backseat to the priority of being able to add or replace members as necessary — incidentally, even if the members don't change, this also reduce the situation of someone not understand certain obscure part of the codebase.  Implicit convention or abstraction that I would have made up and prefer as a developer is more easily discouraged. This doesn't mean trying to make your member's replacable. I still strongly believe that maximizing individual’s productivity is the better way to go. But for team consisting of member with various capabilities and strengths, doing things “the correct and best way” might be too much of a reach.
